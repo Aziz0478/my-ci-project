@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Учебный проект CI/CD</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="card">
+    <p class="label">Практическая работа · Тема 3.1.43</p>
+    <h1>Автоматизация начинается с проверки</h1>
+    <p>GitHub Actions проверяет наличие файлов этого сайта при отправке изменений в ветку main.</p>
+    <ol>
+      <li>Изменение кода</li>
+      <li>Отправка в GitHub</li>
+      <li>Автоматическая проверка файлов</li>
+    </ol>
+    <button id="check-button" type="button">Проверить работу JavaScript</button>
+    <p id="result" role="status" aria-live="polite">Нажмите кнопку для проверки.</p>
+    <p class="note">Эта кнопка проверяет подключение JavaScript в браузере. CI запускается на GitHub после push.</p>
+  </main>
+</body>
+</html>
